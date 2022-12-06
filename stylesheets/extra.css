@@ -1,0 +1,108 @@
+:root {
+    --md-admonition-icon--trouble-data: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z"/></svg>')
+  }
+  .md-typeset .admonition.trouble-data,
+  .md-typeset details.trouble-data {
+    border-color: rgb(0, 189, 214);
+  }
+  .md-typeset .trouble-data > .admonition-title,
+  .md-typeset .trouble-data > summary {
+    background-color: rgba(0, 189, 214, 0.1);
+  }
+  .md-typeset .trouble-data > .admonition-title::before,
+  .md-typeset .trouble-data > summary::before {
+    background-color: rgb(0, 189, 214);
+    -webkit-mask-image: var(--md-admonition-icon--trouble-data);
+            mask-image: var(--md-admonition-icon--trouble-data);
+  }
+
+:root {
+    --md-admonition-icon--trouble-computer: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 96V320H64L64 96H384zM64 32C28.7 32 0 60.7 0 96V320c0 35.3 28.7 64 64 64H181.3l-10.7 32H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c17.7 0 32-14.3 32-32s-14.3-32-32-32H277.3l-10.7-32H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm464 0c-26.5 0-48 21.5-48 48V432c0 26.5 21.5 48 48 48h64c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48H528zm16 64h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H544c-8.8 0-16-7.2-16-16s7.2-16 16-16zm-16 80c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16s-7.2 16-16 16H544c-8.8 0-16-7.2-16-16zm32 224c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg>')
+  }
+  .md-typeset .admonition.trouble-computer,
+  .md-typeset details.trouble-computer {
+    border-color: rgb(0, 189, 214);
+  }
+  .md-typeset .trouble-computer > .admonition-title,
+  .md-typeset .trouble-computer > summary {
+    background-color: rgba(0, 189, 214, 0.1);
+  }
+  .md-typeset .trouble-computer > .admonition-title::before,
+  .md-typeset .trouble-computer > summary::before {
+    background-color: rgb(0, 189, 214);
+    -webkit-mask-image: var(--md-admonition-icon--trouble-computer);
+            mask-image: var(--md-admonition-icon--trouble-computer);
+  }
+
+:root {
+    --md-admonition-icon--trouble-flask: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M175 389.4c-9.8 16-15 34.3-15 53.1c-10 3.5-20.8 5.5-32 5.5c-53 0-96-43-96-96V64C14.3 64 0 49.7 0 32S14.3 0 32 0H96h64 64c17.7 0 32 14.3 32 32s-14.3 32-32 32V309.9l-49 79.6zM96 64v96h64V64H96zM352 0H480h32c17.7 0 32 14.3 32 32s-14.3 32-32 32V214.9L629.7 406.2c6.7 10.9 10.3 23.5 10.3 36.4c0 38.3-31.1 69.4-69.4 69.4H261.4c-38.3 0-69.4-31.1-69.4-69.4c0-12.8 3.6-25.4 10.3-36.4L320 214.9V64c-17.7 0-32-14.3-32-32s14.3-32 32-32h32zm32 64V224c0 5.9-1.6 11.7-4.7 16.8L330.5 320h171l-48.8-79.2c-3.1-5-4.7-10.8-4.7-16.8V64H384z"/></svg>')
+  }
+  .md-typeset .admonition.trouble-flask,
+  .md-typeset details.trouble-flask {
+    border-color: rgb(0, 189, 214);
+  }
+  .md-typeset .trouble-flask > .admonition-title,
+  .md-typeset .trouble-flask > summary {
+    background-color: rgba(0, 189, 214, 0.1);
+  }
+  .md-typeset .trouble-flask > .admonition-title::before,
+  .md-typeset .trouble-flask > summary::before {
+    background-color: rgb(0, 189, 214);
+    -webkit-mask-image: var(--md-admonition-icon--trouble-flask);
+            mask-image: var(--md-admonition-icon--trouble-flask);
+  }
+
+  :root {
+    --md-admonition-icon--trouble-thermo: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M160 64c-26.5 0-48 21.5-48 48V276.5c0 17.3-7.1 31.9-15.3 42.5C86.2 332.6 80 349.5 80 368c0 44.2 35.8 80 80 80s80-35.8 80-80c0-18.5-6.2-35.4-16.7-48.9c-8.2-10.6-15.3-25.2-15.3-42.5V112c0-26.5-21.5-48-48-48zM48 112C48 50.2 98.1 0 160 0s112 50.1 112 112V276.5c0 .1 .1 .3 .2 .6c.2 .6 .8 1.6 1.7 2.8c18.9 24.4 30.1 55 30.1 88.1c0 79.5-64.5 144-144 144S16 447.5 16 368c0-33.2 11.2-63.8 30.1-88.1c.9-1.2 1.5-2.2 1.7-2.8c.1-.3 .2-.5 .2-.6V112zM208 368c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-20.9 13.4-38.7 32-45.3V152c0-8.8 7.2-16 16-16s16 7.2 16 16V322.7c18.6 6.6 32 24.4 32 45.3z"/></svg>')
+  }
+  .md-typeset .admonition.trouble-thermo,
+  .md-typeset details.trouble-thermo {
+    border-color: rgb(0, 189, 214);
+  }
+  .md-typeset .trouble-thermo > .admonition-title,
+  .md-typeset .trouble-thermo > summary {
+    background-color: rgba(0, 189, 214, 0.1);
+  }
+  .md-typeset .trouble-thermo > .admonition-title::before,
+  .md-typeset .trouble-thermo > summary::before {
+    background-color: rgb(0, 189, 214);
+    -webkit-mask-image: var(--md-admonition-icon--trouble-thermo);
+            mask-image: var(--md-admonition-icon--trouble-thermo);
+  }
+
+:root {
+    --md-admonition-icon--trouble-tubes: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M403.8 34.4c12-5 25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V160H352c-10.1 0-19.6 4.7-25.6 12.8L284 229.3 244 176l31.2-41.6C293.3 110.2 321.8 96 352 96h32V64c0-12.9 7.8-24.6 19.8-29.6zM164 282.7L204 336l-31.2 41.6C154.7 401.8 126.2 416 96 416H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96c10.1 0 19.6-4.7 25.6-12.8L164 282.7zm274.6 188c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V416H352c-30.2 0-58.7-14.2-76.8-38.4L121.6 172.8c-6-8.1-15.5-12.8-25.6-12.8H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H96c30.2 0 58.7 14.2 76.8 38.4L326.4 339.2c6 8.1 15.5 12.8 25.6 12.8h32V320c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l64 64c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-64 64z"/></svg>')
+  }
+  .md-typeset .admonition.trouble-tubes,
+  .md-typeset details.trouble-tubes {
+    border-color: rgb(0, 189, 214);
+  }
+  .md-typeset .trouble-tubes > .admonition-title,
+  .md-typeset .trouble-tubes > summary {
+    background-color: rgba(0, 189, 214, 0.1);
+  }
+  .md-typeset .trouble-tubes > .admonition-title::before,
+  .md-typeset .trouble-tubes > summary::before {
+    background-color: rgb(0, 189, 214);
+    -webkit-mask-image: var(--md-admonition-icon--trouble-tubes);
+            mask-image: var(--md-admonition-icon--trouble-tubes);
+  }
+
+
+  :root {
+    --md-admonition-icon--trouble-switch: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 128c70.7 0 128 57.3 128 128s-57.3 128-128 128H192c-70.7 0-128-57.3-128-128s57.3-128 128-128H384zM576 256c0-106-86-192-192-192H192C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192zM192 352c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96s43 96 96 96z"/></svg>')
+  }
+  .md-typeset .admonition.trouble-switch,
+  .md-typeset details.trouble-switch {
+    border-color: rgb(0, 189, 214);
+  }
+  .md-typeset .trouble-switch > .admonition-title,
+  .md-typeset .trouble-switch > summary {
+    background-color: rgba(0, 189, 214, 0.1);
+  }
+  .md-typeset .trouble-switch > .admonition-title::before,
+  .md-typeset .trouble-switch > summary::before {
+    background-color: rgb(0, 189, 214);
+    -webkit-mask-image: var(--md-admonition-icon--trouble-switch);
+            mask-image: var(--md-admonition-icon--trouble-switch);
+  }

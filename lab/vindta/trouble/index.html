@@ -1,0 +1,1051 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Troubleshooting - SeaCO₂ group wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="orange">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vindta-troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="SeaCO₂ group wiki" class="md-header__button md-logo" aria-label="SeaCO₂ group wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SeaCO₂ group wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Troubleshooting
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/seaco2/seaco2.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    seaco2/seaco2.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="SeaCO₂ group wiki" class="md-nav__button md-logo" aria-label="SeaCO₂ group wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    SeaCO₂ group wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/seaco2/seaco2.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    seaco2/seaco2.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Start here
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Python" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../python/conda/" class="md-nav__link">
+        conda / mamba
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../python/spyder/" class="md-nav__link">
+        Spyder IDE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Laboratory
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Laboratory" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Laboratory
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          VINDTA
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="VINDTA" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          VINDTA
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../protocol/" class="md-nav__link">
+        Protocols
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Troubleshooting
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Troubleshooting
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bad-precision-andor-results" class="md-nav__link">
+    Bad precision and/or results
+  </a>
+  
+    <nav class="md-nav" aria-label="Bad precision and/or results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bad-dic-precision-coulometer-noisy" class="md-nav__link">
+    Bad DIC precision / coulometer noisy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unexpectedly-low-dic-values" class="md-nav__link">
+    Unexpectedly low DIC values
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unexpectedly-low-alkalinity-values" class="md-nav__link">
+    Unexpectedly low alkalinity values
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poor-alkalinity-precision" class="md-nav__link">
+    Poor alkalinity precision
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emf-doesnt-change-on-acid-addition" class="md-nav__link">
+    EMF doesn't change on acid addition
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#computer" class="md-nav__link">
+    Computer
+  </a>
+  
+    <nav class="md-nav" aria-label="Computer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coulometer-counts-not-appearing-on-computer" class="md-nav__link">
+    Coulometer counts not appearing on computer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-not-recorded" class="md-nav__link">
+    Results not recorded
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coulometer" class="md-nav__link">
+    Coulometer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peltier" class="md-nav__link">
+    Peltier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#titrino" class="md-nav__link">
+    Titrino
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vindta" class="md-nav__link">
+    VINDTA
+  </a>
+  
+    <nav class="md-nav" aria-label="VINDTA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pipette-problems" class="md-nav__link">
+    Pipette problems
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#water-bath" class="md-nav__link">
+    Water bath
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bad-precision-andor-results" class="md-nav__link">
+    Bad precision and/or results
+  </a>
+  
+    <nav class="md-nav" aria-label="Bad precision and/or results">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bad-dic-precision-coulometer-noisy" class="md-nav__link">
+    Bad DIC precision / coulometer noisy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unexpectedly-low-dic-values" class="md-nav__link">
+    Unexpectedly low DIC values
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unexpectedly-low-alkalinity-values" class="md-nav__link">
+    Unexpectedly low alkalinity values
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poor-alkalinity-precision" class="md-nav__link">
+    Poor alkalinity precision
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emf-doesnt-change-on-acid-addition" class="md-nav__link">
+    EMF doesn't change on acid addition
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#computer" class="md-nav__link">
+    Computer
+  </a>
+  
+    <nav class="md-nav" aria-label="Computer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#coulometer-counts-not-appearing-on-computer" class="md-nav__link">
+    Coulometer counts not appearing on computer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#results-not-recorded" class="md-nav__link">
+    Results not recorded
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coulometer" class="md-nav__link">
+    Coulometer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#peltier" class="md-nav__link">
+    Peltier
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#titrino" class="md-nav__link">
+    Titrino
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vindta" class="md-nav__link">
+    VINDTA
+  </a>
+  
+    <nav class="md-nav" aria-label="VINDTA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pipette-problems" class="md-nav__link">
+    Pipette problems
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#water-bath" class="md-nav__link">
+    Water bath
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+  <a href="https://github.com/seaco2/seaco2.github.io/edit/master/docs/lab/vindta/trouble.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="vindta-troubleshooting">VINDTA troubleshooting<a class="headerlink" href="#vindta-troubleshooting" title="Permanent link">&para;</a></h1>
+<h2 id="bad-precision-andor-results">Bad precision and/or results<a class="headerlink" href="#bad-precision-andor-results" title="Permanent link">&para;</a></h2>
+<h3 id="bad-dic-precision-coulometer-noisy">Bad DIC precision / coulometer noisy<a class="headerlink" href="#bad-dic-precision-coulometer-noisy" title="Permanent link">&para;</a></h3>
+<ul>
+<li>See <a href="">Coulometer section</a>.</li>
+</ul>
+<h3 id="unexpectedly-low-dic-values"><strong>Unexpectedly low DIC values</strong><a class="headerlink" href="#unexpectedly-low-dic-values" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">Are the gas delivery tubes blocked?</p>
+<p>Check for kinks in the tubing, and/or crystals forming in the cathode cell end of the tube.  If there are crystals, clear these out with deionised water and then blast the tube through with carrier gas to dry it out.</p>
+</div>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">See also: back-pressure in system</p>
+<p>Check issue 'DIC pipette not emptying into stripper' in <a href="">VINDTA section</a>.</p>
+</div>
+<div class="admonition trouble-flask">
+<p class="admonition-title">DIC pipette not (completely) filling or emptying?</p>
+<p>See <a href="#pipette-problems">pipette problems</a>.</p>
+</div>
+<h3 id="unexpectedly-low-alkalinity-values"><strong>Unexpectedly low alkalinity values</strong><a class="headerlink" href="#unexpectedly-low-alkalinity-values" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-switch">
+<p class="admonition-title">Is the cell valve closing properly?</p>
+<p>The cell valve (at the bottom of the alkalinity cell) should be open during the NaCl rinsing process but securely shut during the titration.  If it comes open again, then a portion of the sample can escape through this tube during the titration and the alkalinity value comes out typically a few hundred µmol/kg lower than expected.</p>
+<p>This can sometimes be fixed by unplugging and replugging the cable to the servo motor that controls the cell valve or replacing the servo motor entirely.  However, there is also an underlying issue inside the VINDTA box which can be fixed with the help of the NIOZ electronics department.</p>
+</div>
+<div class="admonition trouble-flask">
+<p class="admonition-title">Is the HCl titrant 0.1 M?</p>
+<p>The HCl ampoules used to make up the acid are also available at 10 times stronger concentration, and they look identical apart from the label.  If you use one by mistake the alkalinity will appear to be much lower than expected (and the VINDTA software may not be able to find the endpoint at all, giving an error or zero value).</p>
+</div>
+<div class="admonition trouble-flask">
+<p class="admonition-title">Alkalinity pipette not (completely) filling or emptying?</p>
+<p>See <a href="#pipette-problems">pipette problems</a>.</p>
+</div>
+<h3 id="poor-alkalinity-precision"><strong>Poor alkalinity precision</strong><a class="headerlink" href="#poor-alkalinity-precision" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-switch">
+<p class="admonition-title">Is the titanium reference electrode securely connected?</p>
+</div>
+<div class="admonition trouble-flask">
+<p class="admonition-title">Has the NaCl rinsing solution run out?</p>
+</div>
+<div class="admonition trouble-flask">
+<p class="admonition-title">Is the tube in the NaCl rinsing solution filled with air and floating on the surface?</p>
+</div>
+<div class="admonition trouble-thermo">
+<p class="admonition-title">Is the TA cell temperature good (25.0 ± 0.5 °C)?</p>
+</div>
+<div class="admonition trouble-thermo">
+<p class="admonition-title">Keep the HCl bottle at a constant temperature (25 °C)</p>
+</div>
+<div class="admonition trouble-flask">
+<p class="admonition-title">Make a new batch of HCl titrant</p>
+<p>You should routinely top up or replace the HCl titrant once the bottle is 20-30% full.  Note that CRMs measured before topping up or replacing the HCl cannot be used to calibrate samples from afterwards.</p>
+</div>
+<h3 id="emf-doesnt-change-on-acid-addition"><strong>EMF doesn't change on acid addition</strong><a class="headerlink" href="#emf-doesnt-change-on-acid-addition" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">Is there a blockage in the HCl delivery tube from the Titrino to the TA cell?</p>
+</div>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">Is the delivery tube trapped inside the TA cell?</p>
+</div>
+<h2 id="computer"><strong>Computer</strong><a class="headerlink" href="#computer" title="Permanent link">&para;</a></h2>
+<p>As with all computer problems, if unplugging and reattaching cables and switching USB positions doesn’t work, try restarting the system.</p>
+<h3 id="coulometer-counts-not-appearing-on-computer"><strong>Coulometer counts not appearing on computer</strong><a class="headerlink" href="#coulometer-counts-not-appearing-on-computer" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-computer">
+<p class="admonition-title">Close the analysis program and re-allocate the coulometer port after restarting</p>
+</div>
+<h3 id="results-not-recorded"><strong>Results not recorded</strong><a class="headerlink" href="#results-not-recorded" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-computer">
+<p class="admonition-title">Did you select the bottle name before starting the run?</p>
+<p>The bottle name must be selected (highlighted in blue) on the sample list in the VINDTA software before starting the run, otherwise no file will be saved.  If this has happened, then the DIC can still be recovered from logfile (with a bit of work), but TA is lost.</p>
+</div>
+<h2 id="coulometer">Coulometer<a class="headerlink" href="#coulometer" title="Permanent link">&para;</a></h2>
+<p>The main problems with the coulometer are noise and the screen freezing (newer touch-screen models).</p>
+<p><strong>Noise</strong> is usually caused by a dirty cell and/or lack of care while making up the cell.  If a mistake is made while making up a cell and you are unsure whether it will make a difference, it is generally better to stop and make up a fresh cell correctly straight away rather than risk wasting an hour or two to find out.</p>
+<p>The <strong>screen freezing</strong> is frustrating and its cause poorly understood.  It might be due to loose electrical connections inside the coulometer, or bad connections between the coulometer and the computer.  Often the screen will not freeze for several weeks and then it will freeze many times in a single day, for no apparent reason.</p>
+<ul>
+<li>Run cell set-up is noisy, coulometer is noisy, and/or DIC precision is poor<ul>
+<li>Check solution cathode compartment for any particles e.g. bits of tissue</li>
+<li>If not long since cell was prepared, leave for a while longer to stabilise</li>
+<li>If there are lots of bubbles in the cathode solution, turn off the gas supply for a couple of minutes to allow them to dissipate</li>
+<li>Gas supply must be switched on and bubbles flowing through cell for Run Cell Set-up</li>
+<li>Check Peltier temperature is in the range 1–3 °C</li>
+<li>Ensure base of coulometer cell is pushed flat against the floor of the coulometer</li>
+<li>Run more Junks</li>
+<li>Clean cell and frit by soaking for a couple of hours first in 10% HNO3 solution then deionised water</li>
+<li>Use new bottles of cathode and anode solution</li>
+<li>Ensure all of the KI in the anode compartment has not dissolved</li>
+<li>Change CO2 scrubber chemicals</li>
+<li>Switch to new nitrogen gas bottle</li>
+<li>Use a voltage stabiliser</li>
+<li>Check that the stirrer is in the coulometer cell</li>
+</ul>
+</li>
+<li>Screen frozen (accompanied by “VISA: I/O Error” on computer)<ul>
+<li>Turn coulometer power switch off then back on immediately</li>
+<li>Select CM5011 Emulation then Start Analysis (do NOT run cell set-up)</li>
+<li>If screen freezes repeatedly, try changing the USB port</li>
+</ul>
+</li>
+</ul>
+<h2 id="peltier">Peltier<a class="headerlink" href="#peltier" title="Permanent link">&para;</a></h2>
+<p>Problems with the Peltier are generally caused either by forgetting to turn it on, forgetting to turn the circulating water bath on, or by blockages in the tubing connecting it to the water bath.</p>
+<div class="admonition trouble-thermo">
+<p class="admonition-title">Is the Peltier switched on?</p>
+<p>Ensure power setting is on high enough on the computer (should be in the range 45–55%, but is reset to 0% automatically every time the analysis program is re-started) or on the Peltier box.</p>
+</div>
+<div class="admonition trouble-thermo">
+<p class="admonition-title">Is there a water flow through the Peltier?</p>
+<p>Make sure the circulating water bath pump is running and check for tubing blockages.  If there is a blockage, try reversing pump the inlet and outlet for 30 seconds as a temporary fix.  Better is to remove the blocked tubing and clean it out, especially around the connector valves.</p>
+</div>
+<h2 id="titrino">Titrino<a class="headerlink" href="#titrino" title="Permanent link">&para;</a></h2>
+<p>The Titrino has on a few occasions simply stopped communicating with the computer for no apparent reason.  After several frustrating hours of repeated restarting and checking connections and settings it begins working again.  The cause of the problem and the solution both remain unclear.  When removing bubbles it is important to use a low dV/dt as described in the instructions else if the flow is too fast additional bubbles may be induced and the whole process must be repeated.</p>
+<ul>
+<li>Bubbles in green tubing and/or burette<ul>
+<li>Follow instructions from step 8 of analysis session start-up routine</li>
+</ul>
+</li>
+<li>Not communicating with computer<ul>
+<li>Restart system</li>
+<li>Use Titrino keyboard to check RS control is on</li>
+<li>Press CONFIG x 3, ENTER, CONFIG x 5</li>
+<li>Check cables are all connected securely</li>
+<li>Change USB port</li>
+</ul>
+</li>
+<li>Screen is blank<ul>
+<li>Contrast control wheel is beneath DOS button</li>
+</ul>
+</li>
+<li>Unstable electrode EMF (standard deviation too high)<ul>
+<li>Check that there is liquid in the cell</li>
+<li>Use the switch on the VINDTA box to turn the stirrer on</li>
+<li>Lack of mixing is likely to be the problem especially if acid has been added while setting up the Titrino</li>
+<li>Check that there are no crystals in the electrode</li>
+</ul>
+</li>
+</ul>
+<h2 id="vindta">VINDTA<a class="headerlink" href="#vindta" title="Permanent link">&para;</a></h2>
+<p>Parts of the VINDTA will often not communicate with the computer immediately after start-up but once fixed generally work fine for the whole session of analysis.  The TA cell full sensor does not work on this VINDTA.</p>
+<h3 id="pipette-problems"><strong>Pipette problems</strong><a class="headerlink" href="#pipette-problems" title="Permanent link">&para;</a></h3>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">Did the DIC / alkalinity pipette not fill completely?</p>
+<p>Are you using the pipette full sensor?  (At NIOZ: no!)  Then see ‘Pipette full sensor not working’ in <a href="">VINDTA</a>.</p>
+<p>Otherwise, increase the time for this step in the method file and/or increase the carrier gas pressure so the water flows in more quickly.</p>
+</div>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">Did the DIC / alkalinity pipette not empty completely?</p>
+<p>Check to see if some of the sample is still in the pipette after it has finished emptying into the stripper / titration cell.  Increase the time for this step in the method file and/or increase the carrier gas pressure so the water flows out more quickly</p>
+</div>
+<ul>
+<li>DIC pipette not emptying into stripper<ul>
+<li>May be accompanied by fluid leaking from connection on tube between valves 11 and 12</li>
+<li>Back-pressure has built up in coulometer cell and stripper</li>
+<li>Ensure there are no blockages in tubing</li>
+<li>Gas delivery tube to coulometer cell</li>
+<li>Waste gas tube from coulometer cell</li>
+<li>Disconnect tubing into coulometer cell as a temporary measure to relieve the pressure</li>
+</ul>
+</li>
+<li>Gas flow reading incorrect after using Set Flow<ul>
+<li>Use 3C DIC read gas flow method to update the measurement</li>
+<li>Check gas valve into VINDTA is open</li>
+<li>Check nitrogen gas bottle is not empty</li>
+</ul>
+</li>
+<li>Parts not responding to computer (e.g. valves, thermometers, Peltier)<ul>
+<li>Remove and re-attach USB cables</li>
+<li>Try changing USB ports if this doesn’t work</li>
+<li>Ensure relevant cables on the VINDTA itself are connected properly</li>
+<li>System restart</li>
+</ul>
+</li>
+<li>Pipette full sensor not working<ul>
+<li>Usually, falsely recording a full pipette rather than the opposite</li>
+<li>Pull sensor (metal rods) out of septum and clean with lint-free tissue</li>
+<li>Clean septum and red lid with lint-free tissue</li>
+<li>Check electrical connections</li>
+<li>System restart</li>
+</ul>
+</li>
+<li>Rinsing NaCl solution overflows from TA cell<ul>
+<li>Disconnect Pump 2 and wait for it to stop</li>
+<li>Do not use methods that require the cell full sensor</li>
+<li>Unscrew clip on Pump 2 a little to reduce pressure on tubing and reduce flow rate</li>
+</ul>
+</li>
+<li>TA pipette empty sensor not working<ul>
+<li>Sensor light should be red when pipette is empty, green otherwise</li>
+<li>Carefully adjust position of tube passing through black sensor below TA pipette</li>
+</ul>
+</li>
+</ul>
+<h2 id="water-bath">Water bath<a class="headerlink" href="#water-bath" title="Permanent link">&para;</a></h2>
+<p>Always make sure that everything that goes in to the water bath is taken back out again, so it can’t block the circulation tubing or the motor.  The temperature dial is often incorrectly calibrated, so use a thermometer to check the temperature.  It is the temperature of the sample as it is being analysed (e.g., in the TA cell) that is important, and sometimes a water bath temperature of up to 26.5°C is best to get the measurement at 25°C, depending upon the ambient temperature.</p>
+<div class="admonition trouble-tubes">
+<p class="admonition-title">The water bath circulation tubing keeps getting dirty and stuff grows inside</p>
+<p><strong>Never put sample bottles into the circulation water bath!</strong>  Use a separate water bath for warming your sample bottles before analysis.  Fill the system with deionised water plus a small amount of non-harmful sterilising agent.</p>
+</div>
+<ul>
+<li>Gurgling sounds<ul>
+<li>Add more water</li>
+</ul>
+</li>
+<li>Incorrect temperature<ul>
+<li>Use a thermometer to test temperature and adjust temperature dial accordingly – it is not correctly calibrated or accurate enough</li>
+<li>Ensure that both switches on the water bath are turned on</li>
+</ul>
+</li>
+<li>Pump not working<ul>
+<li>Dismantle water bath from top and check motor for blockages</li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../protocol/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Protocols" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Protocols
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+    
+  </body>
+</html>
