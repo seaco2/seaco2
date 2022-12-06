@@ -2,11 +2,14 @@
 
 ## Getting around
 
-The menu on the **left** takes you to different pages.  The menu on the **right** is for navigating within the current page.  There's a search bar at the **top**.
+  * The menu at the **top** takes you to a different section.
+  * The menu on the **left** takes you to different pages within this section.
+  * The menu on the **right** is for navigating within the current page. 
+  * There's a search bar at the **top** along with a button to switch between dark and light modes.
 
 ## How to update this wiki
 
-This wiki is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and hosted on GitHub Pages from the repo [seaco2/seaco2.github.io](https://github.com/seaco2/seaco2.github.io).  The wiki is automatically updated whenever you push to the `main` branch of the repo.  The content is formatted with [Markdown](https://www.markdownguide.org/cheat-sheet/).
+This wiki is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and hosted on GitHub Pages from the repo [seaco2/seaco2.github.io](https://github.com/seaco2/seaco2.github.io).  The wiki is automatically updated whenever you push to the `main` branch of the repo.  The content is formatted with [Markdown](https://www.markdownguide.org/cheat-sheet/) with a bunch of Markdown extensions enabled as described in the [Material docs](https://squidfunk.github.io/mkdocs-material/reference/).
 
 ### File structure
 
